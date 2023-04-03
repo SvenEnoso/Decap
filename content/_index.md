@@ -1,5 +1,5 @@
 ---
-title: 'Seit mehr als 30 Jahren in Ehrenbreitstein '
+title: "Seit mehr als 30 Jahren in Ehrenbreitstein "
 meta:
   title: Antiquitäten Ameln Koblenz Ehrenbreitstein
 menu:
@@ -7,7 +7,15 @@ menu:
     name: aboutUs
     title: Über uns
     weight: 3
+blurb: >-
+  Sie lieben antike Möbel?
 
+  Sie möchten Ihre Schätze aufbereiten und in “neuem altem” Zustand restaurieren?
+
+  Sie möchten die alten Farben von Ihren Möbeln entfernen lassen.
+section:
+  heading: Beispiel
+  text: Beispieltext
 ---
 ![](/img/PIC00091.jpg)
 
