@@ -30,6 +30,6 @@ collections:
           preview: false
         fields:
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "text" }    
+          - { label: "Body", name: "body", widget: "markdown" }    
       
           
