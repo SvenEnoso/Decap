@@ -36,7 +36,7 @@ collections:
                 ],
             }
       - file: "content/kontakt.md"
-        label: "Kontakt"
+        label: "Kontakt zu uns"
         name: "contact"
         fields:
           - { label: "Titel", name: "title", widget: "string" }
@@ -54,13 +54,13 @@ collections:
           - { label: "Titel", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "text" }
         file: "content/links.md"
-        label: "Links"
+        label: "Nützliche Links"
         name: "links"
         fields:
           - { label: "Titel", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "text" }
         file: "content/_rundgang.md"
-        label: "Rundgang"
+        label: "Kleiner Rundgang"
         name: "round"
         fields:
           - { label: "Title", name: "title", widget: "string" }
