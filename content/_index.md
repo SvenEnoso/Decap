@@ -16,7 +16,7 @@ blurb: # WILLKOMMEN BEI UNS
 * Ihre Möbel haben Holzwurmbefall.
  
 section:
-  heading: **Dann sind Sie bei uns richtig! Qualität seit 1987.**
+  heading: Dann sind Sie bei uns richtig! Qualität seit 1987.
   text: * Wir haben eine reichhaltige Auswahl an [**Edel- und Weichholzmöbeln**](/rundgang/)
 * Wir haben eine Restaurierungswerkstatt
 * Wir entfernen alte Farben umweltschonend von Ihren Möbeln
