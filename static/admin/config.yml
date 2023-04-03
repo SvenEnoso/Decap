@@ -12,16 +12,56 @@ collections:
     public_folder: ""
     create: true # Allow users to create new documents in this collection
     fields: # The fields for each document, usually in front matter
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Featured Image", name: "image", widget: "image" }
+      - { label: "Titel", name: "title", widget: "string" }
+      - { label: "Veröffentlich am:", name: "date", widget: "datetime" }
+      - { label: "Beitragsbild", name: "image", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "pages"
     label: "Pages"
     files:
       - file: "content/_index.md"
-        label: "Home Page"
+        label: "Startseite"
         name: "home"
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Kurzform", name: "blurb", widget: "text" }
+          - {
+              label: "Bereich",
+              name: "section",
+              widget: "object",
+              fields:
+                [
+                  { label: "Überschrift", name: "heading", widget: string },
+                  { label: "Text", name: "text", widget: "text" },
+                ],
+            }
+      - file: "content/kontakt.md"
+        label: "Kontakt"
+        name: "contact"
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "text" }
+        file: "content/Datenschutz.md"
+        label: "Datenschutz"
+        name: "privacy"
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "text" }
+        file: "content/impressum.md"
+        label: "Impressum"
+        name: "aboutUs"
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "text" }
+        file: "content/links.md"
+        label: "Links"
+        name: "links"
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "text" }
+        file: "content/_rundgang.md"
+        label: "Rundgang"
+        name: "round"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Blurb", name: "blurb", widget: "text" }
@@ -35,9 +75,4 @@ collections:
                   { label: "Text", name: "text", widget: "text" },
                 ],
             }
-      - file: "content/about/index.md"
-        label: "About"
-        name: "about"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "text" }
+          
