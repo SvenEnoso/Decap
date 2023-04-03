@@ -7,29 +7,17 @@ menu:
     name: aboutUs
     title: Über uns
     weight: 3
-blurb: >-
-  Sie lieben antike Möbel?
-
-  Sie möchten Ihre Schätze aufbereiten und in “neuem altem” Zustand restaurieren?
-
-  Sie möchten die alten Farben von Ihren Möbeln entfernen lassen.
-section:
-  heading: Beispiel
-  text: Beispieltext
----
-![](/img/PIC00091.jpg)
-
-# WILLKOMMEN BEI UNS
+blurb: # WILLKOMMEN BEI UNS
 
 * Sie lieben antike Möbel?
 * Sie möchten Ihre Schätze aufbereiten und in "neuem altem" Zustand restaurieren?
 * Sie möchten die alten Farben von hren Möbeln entfernen lassen.
 * Sie suchen Materialen zur biologischen Oberflächenbearbeitung von Holz und Wänden.
 * Ihre Möbel haben Holzwurmbefall.
-
-**Dann sind Sie bei uns richtig! Qualität seit 1987.**
-
-* Wir haben eine reichhaltige Auswahl an [**Edel- und Weichholzmöbeln**](/rundgang/)
+ 
+section:
+  heading: **Dann sind Sie bei uns richtig! Qualität seit 1987.**
+  text: * Wir haben eine reichhaltige Auswahl an [**Edel- und Weichholzmöbeln**](/rundgang/)
 * Wir haben eine Restaurierungswerkstatt
 * Wir entfernen alte Farben umweltschonend von Ihren Möbeln
 * Wir sind Händler für [**BioPin**](http://www.biopin.de/) Produkte
@@ -54,6 +42,14 @@ Tel. 0261 - 702566
 Telefon Werkstatt
 
 0261 - 702567
+
+---
+![](/img/PIC00091.jpg)
+
+
+
+
+
 
 Email [antik.ameln@t-online.de](mailto:antik.ameln@t-online.de)
 
