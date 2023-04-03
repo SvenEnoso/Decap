@@ -41,4 +41,10 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "text" }
+      - file: "content/Datenschutz.md"
+        label: "Datenschutz"
+        name: "Datenschutz"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "text" }    
           
