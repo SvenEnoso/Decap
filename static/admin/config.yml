@@ -26,6 +26,8 @@ collections:
       - file: "content/datenschutz.md"
         label: "Datenschutz"
         name: "Datenschutz"
+        editor: 
+          preview: false
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "text" }    
