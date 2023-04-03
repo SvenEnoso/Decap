@@ -4,18 +4,6 @@ backend:
 media_folder: "static/img" # Folder where user uploaded files should go
 public_folder: "/img"
 collections:
-  - name: "posts" # Used in routes, e.g., /admin/collections/post
-    label: "Posts" # Used in the UI
-    folder: "content/posts" # The path to the folder where the documents are stored
-    path: "{{slug}}/_index"
-    media_folder: "" # Save images in the post's own folder instead of the static folder
-    public_folder: ""
-    create: true # Allow users to create new documents in this collection
-    fields: # The fields for each document, usually in front matter
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Featured Image", name: "image", widget: "image" }
-      - { label: "Body", name: "body", widget: "markdown" }
   -   name: "pages"
       label: "Pages"
       files:
@@ -35,16 +23,11 @@ collections:
                   { label: "Text", name: "text", widget: "text" },
                 ],
             }
-      - file: "content/about/index.md"
-        label: "About"
-        name: "about"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "text" }
-      - file: "content/Datenschutz.md"
+      - file: "content/datenschutz.md"
         label: "Datenschutz"
         name: "Datenschutz"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "text" }    
+      
           
