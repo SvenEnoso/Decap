@@ -35,31 +35,35 @@ collections:
                   { label: "Text", name: "text", widget: "text" },
                 ],
             }
-      - file: "content/kontakt.md"
+
+      file: "content/kontakt.md"
         label: "Kontakt zu uns"
         name: "contact"
         fields:
           - { label: "Titel", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "text" }
-        file: "content/Datenschutz.md"
+      
+      file: "content/Datenschutz.md"
         label: "Datenschutz"
         name: "privacy"
         fields:
           - { label: "Titel", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "text" }
-        file: "content/impressum.md"
+      file: "content/impressum.md"
         label: "Impressum"
         name: "aboutUs"
         fields:
           - { label: "Titel", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "text" }
-        file: "content/links.md"
+        
+      file: "content/links.md"
         label: "Nützliche Links"
         name: "links"
         fields:
           - { label: "Titel", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "text" }
-        file: "content/_rundgang.md"
+
+      file: "content/_rundgang.md"
         label: "Kleiner Rundgang"
         name: "round"
         fields:
