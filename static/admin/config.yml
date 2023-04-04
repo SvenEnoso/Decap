@@ -63,7 +63,7 @@ collections:
           preview: false
         fields:
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Waschtische",name: "galleryImages",widget: "list",summary: '{{menu.mainmenu}}'}
+          - { label: "Gallery",name: "galleryImages",widget: "list",summary: '{{fields.image}}'}
         field: {label: Image, name: image, widget: image}     
           
                             
