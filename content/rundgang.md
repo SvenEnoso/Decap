@@ -13,7 +13,7 @@ menu:
 meta:
   title: Rundgang durch Antiquitäten Ameln
 gallery_entry:
-  - bild: /img/schrankchen.JPG
+  - bild: /static/img/schrankchen.JPG
     description: >-
       Bei uns gekauftes Schränkchen, Biedermeier, restauriert und geölt im
       Einsatz
