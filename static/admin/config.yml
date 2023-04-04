@@ -30,6 +30,30 @@ collections:
           preview: false
         fields:
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }    
+          - { label: "Body", name: "body", widget: "markdown" } 
+      - file: "content/kontakt.md"
+        label: "Kontakt"
+        name: "Kontakt"
+        editor: 
+          preview: false
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - file: "content/impressum.md"
+        label: "Impressum"
+        name: "Impressum"
+        editor: 
+          preview: false
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - file: "content/links.md"
+        label: "Links"
+        name: "Links"
+        editor: 
+          preview: false
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }               
       
           
