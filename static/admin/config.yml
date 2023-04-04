@@ -80,7 +80,7 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "body", name: "body", widget: "markdown" } 
-      - file: "content/überuns/Holzschädlinge.md"
+      - file: "content/ÜberUns/Holzschädlinge.md"
         label: "Rundgang"
         name: "rundgang"
         editor: 
@@ -88,7 +88,7 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "body", name: "body", widget: "markdown" }  
-      - file: "content/überuns/RestaurierungenHolzwerkstatt.md"
+      - file: "content/ÜberUns/RestaurierungenHolzwerkstatt.md"
         label: "Rundgang"
         name: "rundgang"
         editor: 
