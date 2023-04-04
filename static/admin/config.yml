@@ -4,11 +4,28 @@ backend:
 media_folder: "static/img" # Folder where user uploaded files should go
 public_folder: "/img"
 collections:
-  -    name: "pages"
-       label: "Pages"
-     - file: "content/_index.md"
-        label: "Startseite"
-        name: "Startseite"
+  -   name: "pages"
+      label: "Pages"
+      files:
+      - file: "content/_index.md"
+        label: "Home Page"
+        name: "home"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Blurb", name: "blurb", widget: "text" }
+          - {
+              label: "Section",
+              name: "section",
+              widget: "object",
+              fields:
+                [
+                  { label: "Heading", name: "heading", widget: string },
+                  { label: "Text", name: "text", widget: "text" },
+                ],
+            }
+      - file: "content/datenschutz.md"
+        label: "Datenschutz"
+        name: "Datenschutz"
         editor: 
           preview: false
         fields:
@@ -16,7 +33,7 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" } 
       - file: "content/kontakt.md"
         label: "Kontakt"
-        name: "Kontakt"
+        name: "kontakt"
         editor: 
           preview: false
         fields:
