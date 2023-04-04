@@ -5,7 +5,7 @@ media_folder: "static/img" # Folder where user uploaded files should go
 public_folder: "static/img"
 collections:
   -   name: "pages"
-      label: "Pages"
+      label: "Seiten"
       files:
       - file: "content/_index.md"
         label: "Startseite"
@@ -55,6 +55,6 @@ collections:
           preview: false
         fields:
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "code", name: "code", widget: "code" }                   
+          - { label: "code", name: "code", widget: "markdown" }                   
       
           
