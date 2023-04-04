@@ -55,7 +55,8 @@ collections:
           preview: false
         fields:
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "body", name: "body", widget: "markdown" } 
+          - { - label: "Gallery",name: "galleryImages",widget: "list",summary: '{{fields.image}}'}
+        field: {label: Image, name: image, widget: image}
       - file: "content/referenzen/waschtische.md"
         label: "Waschtische"
         name: "waschtische"
