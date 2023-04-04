@@ -5,55 +5,46 @@ media_folder: "static/img" # Folder where user uploaded files should go
 public_folder: "/img"
 collections:
   -   name: "pages"
-      label: "Pages"
-      files:
+      label: "Seitenübersicht"
       - file: "content/_index.md"
-        label: "Home Page"
-        name: "home"
+        label: "Startseite"
+        name: "Startseite"
+        editor: 
+          preview: false
         fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Blurb", name: "blurb", widget: "text" }
-          - {
-              label: "Section",
-              name: "section",
-              widget: "object",
-              fields:
-                [
-                  { label: "Heading", name: "heading", widget: string },
-                  { label: "Text", name: "text", widget: "text" },
-                ],
-            }
+          - { label: "Überschrift", name: "title", widget: "string" }
+          - { label: "Editor", name: "body", widget: "markdown" }
       - file: "content/datenschutz.md"
         label: "Datenschutz"
         name: "Datenschutz"
         editor: 
           preview: false
         fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" } 
+          - { label: "Überschrift", name: "title", widget: "string" }
+          - { label: "Editor", name: "body", widget: "markdown" } 
       - file: "content/kontakt.md"
         label: "Kontakt"
         name: "Kontakt"
         editor: 
           preview: false
         fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Überschrift", name: "title", widget: "string" }
+          - { label: "Editor", name: "body", widget: "markdown" }
       - file: "content/impressum.md"
         label: "Impressum"
         name: "Impressum"
         editor: 
           preview: false
         fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Überschrift", name: "title", widget: "string" }
+          - { label: "Editor", name: "body", widget: "markdown" }
       - file: "content/links.md"
         label: "Links"
         name: "Links"
         editor: 
           preview: false
         fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }               
+          - { label: "Überschrift", name: "title", widget: "string" }
+          - { label: "Editor", name: "body", widget: "markdown" }               
       
           
