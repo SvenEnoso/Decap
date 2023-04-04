@@ -14,7 +14,7 @@ collections:
           preview: false
         fields:
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Blurb", name: "blurb", widget: "markdown" }
+          - { label: "Body", name: "body", widget: "markdown" }
           
       - file: "content/datenschutz.md"
         label: "Datenschutz"
