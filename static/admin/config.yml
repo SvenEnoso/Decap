@@ -55,6 +55,47 @@ collections:
           preview: false
         fields:
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "code", name: "code", widget: "markdown" }                   
+          - { label: "body", name: "body", widget: "markdown" } 
+      - file: "content/Referenzen/eichebalkenbett.md"
+        label: "Rundgang"
+        name: "rundgang"
+        editor: 
+          preview: false
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "body", name: "body", widget: "markdown" }  
+      - file: "content/Referenzen/panoram.md"
+        label: "Rundgang"
+        name: "rundgang"
+        editor: 
+          preview: false
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "body", name: "body", widget: "markdown" } 
+      - file: "content/Referenzen/waschtische.md"
+        label: "Rundgang"
+        name: "rundgang"
+        editor: 
+          preview: false
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "body", name: "body", widget: "markdown" } 
+      - file: "content/überuns/Holzschädlinge.md"
+        label: "Rundgang"
+        name: "rundgang"
+        editor: 
+          preview: false
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "body", name: "body", widget: "markdown" }  
+      - file: "content/überuns/RestaurierungenHolzwerkstatt.md"
+        label: "Rundgang"
+        name: "rundgang"
+        editor: 
+          preview: false
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "body", name: "body", widget: "markdown" }                   
+                            
       
           
