@@ -56,7 +56,7 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "body", name: "body", widget: "markdown" } 
-      - file: "content/referenzen/waschtische.md"
+      - file: "content/Referenzen/waschtische.md"
         label: "Waschtische"
         name: "waschtische"
         editor: 
