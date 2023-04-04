@@ -63,7 +63,7 @@ collections:
           preview: false
         fields:
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "body", name: "body", widget: "list",default: ["Waschtische"] }    
+          - { label: "body", name: "body", widget: "markdown" }    
           
                             
       
