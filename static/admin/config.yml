@@ -8,7 +8,7 @@ collections:
       label: "Pages"
       files:
       - file: "content/_index.md"
-        label: "Home Page"
+        label: "Startseite"
         name: "home"
         editor:
           preview: false
@@ -18,7 +18,7 @@ collections:
           
       - file: "content/datenschutz.md"
         label: "Datenschutz"
-        name: "Datenschutz"
+        name: "datenschutz"
         editor: 
           preview: false
         fields:
@@ -42,11 +42,19 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
       - file: "content/links.md"
         label: "Links"
-        name: "Links"
+        name: "links"
         editor: 
           preview: false
         fields:
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }               
+          - { label: "Body", name: "body", widget: "markdown" }
+      - file: "content/rundgang.md"
+        label: "Rundgang"
+        name: "rundgang"
+        editor: 
+          preview: false
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }                   
       
           
