@@ -4,8 +4,8 @@ backend:
 media_folder: "static/img" # Folder where user uploaded files should go
 public_folder: "/img"
 collections:
-  -   name: "pages"
-      label: "Pages"
+  -    name: "pages"
+       label: "Pages"
      - file: "content/_index.md"
         label: "Startseite"
         name: "Startseite"
