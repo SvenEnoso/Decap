@@ -61,7 +61,8 @@ collections:
             summary: '{{fields.image}}' 
             fields:
              - { label: "Title", name: "title", widget: "string" } 
-             - { label: "Alt Text", name: "alt", widget: "string" }
+             - { label: "Bild", name: "bild", widget: "image" }
+             - { label: "Beschreibung", name: "description", widget: "string" }
       - file: "content/Referenzen/waschtische.md"
         label: "Waschtische"
         name: "waschtische"
