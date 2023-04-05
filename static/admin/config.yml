@@ -71,9 +71,9 @@ collections:
         fields:
           - { label: "Titel", name: "title", widget: "string" }
           - { label: "body", name: "body", widget: "markdown" } 
-      - file: "content/Referenzen/eichenbalkenbett.md"
-        label: "Eichenbalkenbett"
-        name: "eichenbalkenbett"
+      - file: "content/Referenzen/eichebalkenbett.md"
+        label: "Eichebalkenbett"
+        name: "eichebalkenbett"
         editor: 
           preview: false
         fields:
