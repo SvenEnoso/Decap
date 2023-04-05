@@ -70,7 +70,40 @@ collections:
           preview: false
         fields:
           - { label: "Title", name: "title", widget: "string" }
+          - { label: "body", name: "body", widget: "markdown" } 
+      - file: "content/Referenzen/eichenbalkenbett.md"
+        label: "Eichenbalkenbett"
+        name: "eichenbalkenbett"
+        editor: 
+          preview: false
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "body", name: "body", widget: "markdown" } 
+      - file: "content/Referenzen/panoram.md"
+        label: "Panoram"
+        name: "panoram"
+        editor: 
+          preview: false
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "body", name: "body", widget: "markdown" } 
+      - file: "content/ÜberUns/Holzschädlinge.md"
+        label: "Holzschädlinge"
+        name: "holzschädlinge"
+        editor: 
+          preview: false
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "body", name: "body", widget: "markdown" }
+      - file: "content/ÜberUns/RestaurierungenHolzwerkstatt.md"
+        label: "RestaurierungenHolzwerkstatt"
+        name: "restaurierungenHolzwerkstatt"
+        editor: 
+          preview: false
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
           - { label: "body", name: "body", widget: "markdown" }    
+                       
           
                             
       
