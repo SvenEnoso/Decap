@@ -5,7 +5,7 @@ media_folder: "static/img" # Folder where user uploaded files should go
 public_folder: "static/img"
 collections:
   -   name: "pages"
-      label: "Seiten"
+      label: "Seitenübersicht"
       files:
       - file: "content/_index.md"
         label: "Startseite"
@@ -13,7 +13,7 @@ collections:
         editor:
           preview: false
         fields:
-          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Titel", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
           
       - file: "content/datenschutz.md"
@@ -22,7 +22,7 @@ collections:
         editor: 
           preview: false
         fields:
-          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Titel", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" } 
       - file: "content/kontakt.md"
         label: "Kontakt"
@@ -30,7 +30,7 @@ collections:
         editor: 
           preview: false
         fields:
-          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Titel", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
       - file: "content/impressum.md"
         label: "Impressum"
@@ -38,7 +38,7 @@ collections:
         editor: 
           preview: false
         fields:
-          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Titel", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
       - file: "content/links.md"
         label: "Links"
@@ -46,7 +46,7 @@ collections:
         editor: 
           preview: false
         fields:
-          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Titel", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
       - file: "content/rundgang.md"
         label: "Rundgang"
@@ -54,13 +54,13 @@ collections:
         editor: 
           preview: false
         fields:
-          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Titel", name: "title", widget: "string" }
           - label: "Gallery"
             name: "gallery_entry" 
             widget: "list" 
             summary: '{{fields.title}}' 
             fields:
-             - { label: "Title", name: "title", widget: "string" } 
+             - { label: "Titel", name: "title", widget: "string" } 
              - { label: "Bild", name: "bild", widget: "image" }
              - { label: "Beschreibung", name: "description", widget: "string" }
       - file: "content/Referenzen/waschtische.md"
@@ -69,7 +69,7 @@ collections:
         editor: 
           preview: false
         fields:
-          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Titel", name: "title", widget: "string" }
           - { label: "body", name: "body", widget: "markdown" } 
       - file: "content/Referenzen/eichenbalkenbett.md"
         label: "Eichenbalkenbett"
@@ -77,7 +77,7 @@ collections:
         editor: 
           preview: false
         fields:
-          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Titel", name: "title", widget: "string" }
           - { label: "body", name: "body", widget: "markdown" } 
       - file: "content/Referenzen/panoram.md"
         label: "Panoram"
@@ -85,7 +85,7 @@ collections:
         editor: 
           preview: false
         fields:
-          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Titel", name: "title", widget: "string" }
           - { label: "body", name: "body", widget: "markdown" } 
       - file: "content/ÜberUns/Holzschädlinge.md"
         label: "Holzschädlinge"
@@ -93,7 +93,7 @@ collections:
         editor: 
           preview: false
         fields:
-          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Titel", name: "title", widget: "string" }
           - { label: "body", name: "body", widget: "markdown" }
       - file: "content/ÜberUns/RestaurierungenHolzwerkstatt.md"
         label: "RestaurierungenHolzwerkstatt"
@@ -101,7 +101,7 @@ collections:
         editor: 
           preview: false
         fields:
-          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Titel", name: "title", widget: "string" }
           - { label: "body", name: "body", widget: "markdown" }    
                        
           
